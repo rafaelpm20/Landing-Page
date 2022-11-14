@@ -1,0 +1,335 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+    background-color: rgb(13, 196, 120);
+    height: 100px;
+    padding: 10px;
+    align-items: center;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    align-items: center;
+    text-align: center;
+}
+
+.nav-menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.nav a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+.pacotes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards {
+    border: 1px solid;
+    border-radius: 15px;
+    height: auto;
+    width: 270px;
+}
+
+.conteudo-card img {
+    width: 230px;
+    height: 150px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.btn-reserva {
+    width: 100px;
+    height: 30px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(9, 37, 196);
+    color: azure;
+}
+
+.btn-reserva:hover {
+    background-color: brown;
+}
+
+
+
+.sobreTour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 300px;
+    height: auto;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.cadastro input {
+    border: 2px;
+    border-radius: 5px;
+    border-style: ridge;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+h3 {
+    background-color: green;
+}
+
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+.container-cadastro {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(190, 188, 188) ;
+    height: 50px;
+    text-align: center;
+}
+
+
+
+/*Celulares*/
+@media (min-width: 320px) and (max-width: 767px){
+   
+    .pacotes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .cards {
+        border: 1px solid;
+        border-radius: 15px;
+        height: auto;
+        width: 250px;
+        margin: 4px;
+    }
+
+    
+    .conteudo-card img {
+        width: 230px;
+        height: 150px;
+    }
+    
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .btn-reserva {
+        width: 100px;
+        height: 30px;
+        border-style: none;
+        border-radius: 10px;
+        background-color: rgb(33, 155, 114);
+        color: azure;
+    }
+    
+    .btn-reserva:hover {
+        background-color: brown;
+    }
+
+   .container-cadastro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+
+   .sobreTour {
+    width: 150px;
+   }
+
+   .sobreTour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+    }
+    
+   .cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    }
+
+    
+   
+
+    footer {
+        width: auto;
+    }
+}
+
+/*Tablets*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .pacotes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .cards {
+        border: 1px solid;
+        border-radius: 15px;
+        height: auto;
+        width: 250px;
+        margin: 4px;
+    }
+
+    
+    .conteudo-card img {
+        width: 230px;
+        height: 150px;
+    }
+    
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .btn-reserva {
+        width: 100px;
+        height: 30px;
+        border-style: none;
+        border-radius: 10px;
+        background-color: rgb(33, 155, 114);
+        color: azure;
+    }
+    
+    .btn-reserva:hover {
+        background-color: brown;
+    }
+
+   .container-cadastro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+
+   .sobreTour {
+    width: 150px;
+   }
+
+   .sobreTour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+    }
+    
+   .cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    }
+
+    
+   
+
+    footer {
+        width: auto;
+    }
+
+
+
+}
